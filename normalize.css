@@ -65,9 +65,9 @@ audio:not([controls]) {
  */
 
 html {
-    font-size: 300%; /* 1 */
-    -webkit-text-size-adjust: 300%; /* 2 */
-    -ms-text-size-adjust: 300%; /* 2 */
+    font-size: 200%; /* 1 */
+    -webkit-text-size-adjust: 200%; /* 2 */
+    -ms-text-size-adjust: 200%; /* 2 */
 }
 
 /*
@@ -385,7 +385,7 @@ button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
+    font-size: 50%; /* 1 */
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
@@ -440,8 +440,8 @@ input[type="checkbox"],
 input[type="radio"] {
     box-sizing: border-box; /* 1 */
     padding: 0; /* 2 */
-    *height: 13px; /* 3 */
-    *width: 13px; /* 3 */
+    *height: 20px; /* 3 */
+    *width: 20px; /* 3 */
 }
 
 /*
